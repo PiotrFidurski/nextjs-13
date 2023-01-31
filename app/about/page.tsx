@@ -8,9 +8,9 @@ export default async function AboutPage() {
   if (!data) return null;
 
   return (
-    <div
-      dangerouslySetInnerHTML={{ __html: data }}
-      style={{ minHeight: "2000px" }}
-    ></div>
+    <div>
+      <h1>About</h1>
+      <div dangerouslySetInnerHTML={{ __html: data }} />
+    </div>
   );
 }

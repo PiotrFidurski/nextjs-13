@@ -8,5 +8,10 @@ export default async function NewsLetterPage() {
 
   if (!data) return null;
 
-  return <div dangerouslySetInnerHTML={{ __html: data }} />;
+  return (
+    <div>
+      <h1>Newsletter</h1>
+      <div dangerouslySetInnerHTML={{ __html: data }} />
+    </div>
+  );
 }

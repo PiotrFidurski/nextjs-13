@@ -1,9 +1,9 @@
 import { Meta } from "@/components/Meta";
 
-export default function Head() {
+export default async function Head() {
   return (
     <>
-      <title>Home</title>
+      <title>Pricing</title>
       <Meta />
     </>
   );

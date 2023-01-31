@@ -1,0 +1,18 @@
+.sidebar {
+    min-width: 340px;
+    padding: 1.5rem;
+    background-color: bisque;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.nav li {
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+    padding:1rem;
+}

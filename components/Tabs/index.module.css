@@ -1,0 +1,26 @@
+.container {
+  display: block;
+  background-color: bisque;
+  height: 20px;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.tabContent {
+  width: 100%;
+  background-color: blanchedalmond;
+  padding: 2rem;
+}
+
+.tab {
+  min-width: 200px;
+}
+
+.tab[data-active="true"] {
+  background-color: turquoise;
+}

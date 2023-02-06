@@ -9,7 +9,7 @@ export function Sidebar() {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/about">About</Link>
+          <Link href="/about/0">About</Link>
         </li>
         <li>
           <Link href="/pricing">Pricing</Link>
